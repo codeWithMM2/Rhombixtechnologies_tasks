@@ -32,4 +32,7 @@ An enterprise-grade command-line utility designed to guarantee data confidential
 
    ##Run the application:
    python Securee_file.py
+
+##### 🎥 Project Demo & Video Walkthrough
+You can watch the complete working demo and code explanation video here: [Watch on LinkedIn](https://www.linkedin.com/posts/maryam-mansha-0567b83a6_cybersecurity-cryptography-pythonprogramming-activity-7462949752888950785-R4X6?utm_source=social_share_video_v2&utm_medium=android_app&rcm=ACoAAGNuJUIB1omOnhHs-7PIIK1bh41h1z1FGmc&utm_campaign=copy_link)
    
