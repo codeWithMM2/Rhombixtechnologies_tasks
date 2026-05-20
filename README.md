@@ -29,3 +29,7 @@ An enterprise-grade command-line utility designed to guarantee data confidential
 1. Install the required standard security library:
    ```bash
    pip install cryptography
+
+   ##Run the application:
+   python Securee_file.py
+   
