@@ -31,8 +31,45 @@ An enterprise-grade command-line utility designed to guarantee data confidential
    pip install cryptography
 
    ##Run the application:
-   python Securee_file.py
+   python securee file.py
+   ## Demo video:
+   you can watch the working in the video:
+   
 
-##### 🎥 Project Demo & Video Walkthrough
-You can watch the complete working demo and code explanation video here: [Watch on LinkedIn](https://www.linkedin.com/posts/maryam-mansha-0567b83a6_cybersecurity-cryptography-pythonprogramming-activity-7462949752888950785-R4X6?utm_source=social_share_video_v2&utm_medium=android_app&rcm=ACoAAGNuJUIB1omOnhHs-7PIIK1bh41h1z1FGmc&utm_campaign=copy_link)
+
+
+## 🔒 Task 3: RFID Core Access Control & Blocking System
+
+A robust, Command-Line Interface (CLI) based **RFID Access Control and Management System** developed in Python. This security application focuses on Identity and Access Management (IAM) principles, simulating real-time authentication, dynamic card state management (blacklisting/whitelisting), and strict data logging using local CSV file handling.
+
+### 🚀 Key Features
+* **Identity Verification & IAM Simulation:** Categorizes incoming scans into three distinct operational states:
+  * `ALLOWED`: Instantly verifies active registered identities.
+  * `BLOCKED`: Denies unauthorized entry attempts from lost or blacklisted cards.
+  * `SUSPICIOUS`: Automatically flags unknown or rogue credentials for review.
+* **Persistent Data Infrastructure:** Uses local `CSV` structures (`registered_cards.csv`, `blocked_cards.csv`) to handle real-time configurations without requiring an external database.
+* **Dynamic Configuration & Governance:** Complete admin controls to register new identities, remove active credentials, or toggle live security blocking rules on demand.
+* **Security Auditing & Logs:** Generates a tamper-evident, persistent scan log (`scan_log.csv`) complete with precise ISO-style timestamps for comprehensive compliance tracking.
+
+---
+
+### ⚙️ Core Logic Flow
+
+1. **Card Scan Detection:** Accepts a manual keyboard input string or triggers an automated random generator to mimic an RFID physical tap.
+2. **Blacklist Validation:** Cross-references the unique credential against the blocked cache file first.
+3. **Authorization Check:** Evaluates active user status within the whitelisted registration system if it bypasses the blacklist check.
+4. **Audit Generation:** Appends the final evaluation result and transaction history straight into the centralized logger.
+
+5. 💻 System Execution Documentation:
+6. ## 💻 How to Run
+
+1. 
+   ```bash
+   python Rhombix task 3 RFID blocking.py
+
+   ##Demo video:
+   You can watch the working in the video:
+   
+   
+
    
