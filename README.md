@@ -34,6 +34,7 @@ An enterprise-grade command-line utility designed to guarantee data confidential
    python securee file.py
    ## Demo video:
    you can watch the working in the video:
+   https://www.linkedin.com/posts/maryam-mansha-0567b83a6_cybersecurity-cryptography-pythonprogramming-ugcPost-7462949701160570880-h_Za/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGNuJUIB1omOnhHs-7PIIK1bh41h1z1FGmc
    
 
 
@@ -69,6 +70,7 @@ A robust, Command-Line Interface (CLI) based **RFID Access Control and Managemen
 
    ##Demo video:
    You can watch the working in the video:
+   https://www.linkedin.com/posts/maryam-mansha-0567b83a6_cybersecurity-python-iam-ugcPost-7473087042759901185-zcoF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGNuJUIB1omOnhHs-7PIIK1bh41h1z1FGmc
    
    
 
