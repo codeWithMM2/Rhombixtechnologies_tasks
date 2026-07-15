@@ -1,0 +1,6 @@
+test_users.db
+vapt_report.txt
+__pycache__/
+*.pyc
+.venv/
+venv
