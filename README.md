@@ -71,7 +71,49 @@ A robust, Command-Line Interface (CLI) based **RFID Access Control and Managemen
    ##Demo video:
    You can watch the working in the video:
    https://www.linkedin.com/posts/maryam-mansha-0567b83a6_cybersecurity-python-iam-ugcPost-7473087042759901185-zcoF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGNuJUIB1omOnhHs-7PIIK1bh41h1z1FGmc
-   
+
+
+
+## 🛡️ Task 4: VAPT Scanner (Vulnerability Assessment & Penetration Testing)
+
+An automated Python-based security assessment tool that performs a complete VAPT
+workflow against a self-contained test web application — covering information
+gathering, vulnerability scanning, exploitation testing, and professional
+report generation, simulating a real-world penetration test.
+
+### 🔎 Key Features & Assessment Stages
+
+* **Information Gathering:** Performs a local port scan and grabs the server
+  banner of the target application, similar to reconnaissance tools like Nmap.
+* **SQL Injection Testing:** Sends crafted payloads to the login endpoint and
+  detects injectable parameters based on server error signatures.
+* **Reflected XSS Testing:** Injects a script payload into a search parameter
+  and confirms whether it is reflected unescaped in the HTML response.
+* **Broken Authentication Testing:** Attempts a list of common default/weak
+  credentials against the login endpoint to identify weak authentication.
+* **Security Header Analysis:** Checks for missing critical HTTP security
+  headers (`Content-Security-Policy`, `X-Frame-Options`, etc.).
+* **Automated Professional Reporting:** Generates a full report with risk
+  level, reproduction steps, and remediation guidance for every finding.
+
+### ⚠️ Ethical Use Disclaimer
+
+This tool runs entirely against a small vulnerable Flask application that the
+script builds and hosts locally (`http://127.0.0.1:5000`). It does **not**
+scan or interact with any real, third-party, or production system. Built for
+educational purposes as part of the Rhombix Technologies internship.
+
+### 🚀 Setup & Execution
+
+1. Install the required libraries:
+   ```bash
+   pip install flask requests
+2.Run the application
+```bash
+python vapt_full.py
+3.Demo video
+you can see the working in the video :
+
    
 
    
